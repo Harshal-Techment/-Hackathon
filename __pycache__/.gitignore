@@ -1,0 +1,10 @@
+# 🔒 Prevent secrets and local mess from being committed
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+*.sqlite3
+vectorstore/db_faiss/index.lock
